@@ -54,10 +54,11 @@ li.section:hover ul.dropdownlist {
 ul.dropdownlist li {
     padding:6px;
     background-color:#FFFF99;
-    border-top:1px solid #990000;
+    border:1px solid #FFFFFF;
+    /*border-top:1px solid #990000;
     border-left:1px solid #990000;
     border-right:1px solid #990000;
-    border-bottom:1px solid #990000;
+    border-bottom:1px solid #990000;*/
 }
 
 ul.dropdownlist:hover li {
