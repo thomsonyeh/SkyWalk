@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="editor1.css">
+        <title>Editor 1</title>
+		
+		<script type="text/javascript">
+			<!--
+			function setDisplay(obj,bool) {
+				var el = document.getElementById(obj);
+				if( bool == 1 ) {
+					el.style.display = '';
+				} else {
+					el.style.display = 'none';
+				}
+			}
+			function switchDisplay(obj) {
+				var el = document.getElementById(obj);
+				if ( el.style.display != "none" ) {
+					setDisplay( obj, 0 );
+					return( 0 );
+				} else {
+					setDisplay( obj, 1 );
+					return( 1 );
+				}
+			}
+			//-->
+		</script>
+		
+    </head>
+
+    <body>
+		<p>THIS IS THE EDITOR</p>
+		<br>
+		
+		<ul>
+			<li><div class="header" onclick="switchDisplay('s1');">
+				Header 1
+			</div>
+			<div id="s1"><div class="content">
+				Content:
+				<br>
+				<textarea rows="10" cols="50">Type stuff here</textarea>
+			<div>
+			
+			<li><div class="header" onclick="switchDisplay('s2');">
+				Header 2
+			</div>
+			<div id="s2"><div class="content">
+				Content: 
+				<br>
+				<textarea rows="10" cols="50">Type stuff here</textarea>
+			<div>
+		</ul>
+		
+		
+		<br>
+		<form action="">
+			<input type="button" value="Save Changes">
+		</form>
+    </body>
+</html>
