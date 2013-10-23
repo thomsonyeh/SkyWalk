@@ -1,0 +1,17 @@
+* {
+     margin:0px auto;
+}
+
+html, body {
+    text-align:center;
+	margin:0;
+    padding:0;
+    background-color: rgb(255,255,255);
+}
+
+iframe {
+	border:1;
+	width:45%;
+	height:600px;
+	padding:5px;
+}
