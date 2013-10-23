@@ -1,0 +1,84 @@
+* {
+     margin:0px auto;
+}
+
+html, body {
+    text-align:center;
+	margin:0;
+    padding:0;
+    background-color: rgb(240,245,255);
+}
+
+.headerBanner {
+    width:900px;
+    height:300px;
+    background-color:rgb(255,255,255);
+	box-shadow: 5px 5px 5px rgb(100,100,100);
+}
+
+.headerBanner img {
+    position:relative;
+    width:900px;
+    height:300px;
+}
+
+.menuBar {
+	text-align:center;
+	height:auto;
+	position:relative;
+	width:900px; /*FIX THIS: menu buttons won't center-align w/o tailored width*/
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.menuBar a {
+	text-align:center;
+	margin-left:20px;
+	margin-right:20px;
+	font-size:22px;
+	height:30px;
+	width:auto;
+	float:left;
+	text-decoration:none;
+	color:rgb(100,150,255);
+}
+
+.menuBar a:hover {
+	text-align:center;
+	margin-left:20px;
+	margin-right:20px;
+	font-size:22px;
+	height:30px;
+	width:auto;
+	float:left;
+	color:rgb(0,0,255);
+	text-decoration:overline underline;
+}
+
+.content  {
+	width:900px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:rgb(255,255,255);
+	border-width:2px;
+	border-style:solid;
+	border-color:rgb(100,150,255);
+	border-top-left-radius:1em;
+	border-bottom-left-radius:1em;
+	border-top-right-radius:1em;
+	border-bottom-right-radius:1em;
+}
+
+.content h1 {
+
+}
+
+.content p {
+
+}
+
+.footer {
+	width:900px;
+	font-size:12px;
+	color:rgb(151,151,151);
+}
